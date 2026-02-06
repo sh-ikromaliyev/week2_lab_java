@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Main {
-    public static void main(){
+    public static void main(String[] args){
         // Problem 1
         Scanner input = new Scanner(System.in);
 //        System.out.print("cappuccinos: ");
@@ -67,6 +67,8 @@ public class Main {
 //        }
 //        System.out.print("Cost is " + cost);
 
+        //Problem 7
+
 //        String spin = "0011";
 //        boolean locked = false;
 //        for(int i = 0; i < 3; i++){
@@ -116,5 +118,7 @@ public class Main {
 //            System.out.println(i +" year: " + (deposit + deposit * 0.05));
 //            deposit += deposit * 0.05;
 //        }
+
+        input.close();
     }
 }
